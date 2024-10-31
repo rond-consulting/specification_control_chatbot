@@ -6,8 +6,12 @@ import json
 # URL of the product page
 url = "https://www.gamma.nl/assortiment/bosch-18v-decoupeerzaag-pst18-zonder-accu/p/B391153"
 
+#keyword = 4053423225952
+#url = f"https://www.gamma.nl/zoeken?query={keyword}"
+
+
 # Send a request to the webpage
-response = requests.get(url)
+response = requests.get(url, verify=False)
 response.raise_for_status()  # Check if the request was successful
 
 # Parse the HTML content
@@ -41,10 +45,10 @@ if spec_section:
     print(df)
 
     # Save DataFrame to CSV (optional)
-    df.to_csv(f"{ean_number}_specifications.csv", index=False)
+    df.to_csv(f"data//{ean_number}_specifications.csv", index=False)
 
     # Save specifications as JSON with EAN as the main name
-    with open(f"{ean_number}_specifications.json", "w") as json_file:
+    with open(f"data//{ean_number}_specifications.json", "w") as json_file:
         json.dump({ean_number: specifications}, json_file, indent=4)
 
     print(
@@ -53,5 +57,5 @@ else:
     print("Specifications section not found on the page.")
 
 
-df_bosch = pd.read_csv('/data/4053423225952_specifications.csv')
+df_bosch = pd.read_csv(r'4053423225952_specifications.csv')
 print(df_bosch.dtypes)

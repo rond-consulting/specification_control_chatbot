@@ -1,3 +1,5 @@
+# %%
+# packages importing
 import pandas as pd
 import requests
 from openai import OpenAI
@@ -18,7 +20,7 @@ print("-------------------------")
 
 # Set up prompt for ChatGPT
 prompt = (f"What can you tell me about the EAN named as {df_gamma['EAN'][0]}? "
-          f"You can check if its attributes are correct at attributes at:\n{df.to_markdown()}")
+          f"You can check if its attributes are correct at attributes at:\n{df_gamma.to_markdown()}")
 
 print(prompt)
 
