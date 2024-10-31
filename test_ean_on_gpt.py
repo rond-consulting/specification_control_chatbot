@@ -4,7 +4,7 @@ from openai import OpenAI
 from bs4 import BeautifulSoup
 
 # %%
-df_gamma = pd.read_csv('4053423225952_specifications.csv')
+df_gamma = pd.read_csv('data/4053423225952_specifications.csv')
 spec_names = df_gamma.columns
 specs = df_gamma
 print("-------------------------")

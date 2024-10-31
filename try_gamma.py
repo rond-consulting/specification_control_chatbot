@@ -53,5 +53,5 @@ else:
     print("Specifications section not found on the page.")
 
 
-df_bosch = pd.read_csv('/Users/baranmetin/Desktop/Data Sciences Exercises/EAN_matching/4053423225952_specifications.csv')
+df_bosch = pd.read_csv('/data/4053423225952_specifications.csv')
 print(df_bosch.dtypes)
