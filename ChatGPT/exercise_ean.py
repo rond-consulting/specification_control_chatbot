@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import numpy as np
 
 # Set your OpenAI API key
-secret_api_key = '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'
+secret_api_key = "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"
 
 client = OpenAI(api_key=secret_api_key)
 
