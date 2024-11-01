@@ -7,7 +7,9 @@ from Youtube.prompts import system_message
 
 _ = load_dotenv(find_dotenv())
 
-#client = OpenAI(api_key=os.environ.get('OPEN_API_KEY'))
+client = OpenAI(
+    api_key=os.environ.get('OPEN_API_KEY'),
+)
 #client = OpenAI(api_key=os.environ.get('OPENAI_API_KEY'))
 client = OpenAI(api_key="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")
 

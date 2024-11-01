@@ -45,10 +45,10 @@ if spec_section:
     print(df)
 
     # Save DataFrame to CSV (optional)
-    df.to_csv(f"data//{ean_number}_specifications.csv", index=False)
+    df.to_csv(f"../data/{ean_number}_specifications.csv", index=False)
 
     # Save specifications as JSON with EAN as the main name
-    with open(f"data//{ean_number}_specifications.json", "w") as json_file:
+    with open(f"../data/{ean_number}_specifications.json", "w") as json_file:
         json.dump({ean_number: specifications}, json_file, indent=4)
 
     print(
@@ -57,5 +57,5 @@ else:
     print("Specifications section not found on the page.")
 
 
-df_bosch = pd.read_csv(r'4053423225952_specifications.csv')
+df_bosch = pd.read_csv(r'../data/4053423225952_specifications.csv')
 print(df_bosch.dtypes)

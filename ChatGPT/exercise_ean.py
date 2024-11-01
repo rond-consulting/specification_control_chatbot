@@ -6,8 +6,10 @@ import numpy as np
 
 # Set your OpenAI API key
 secret_api_key = "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"
+api_key_personal_laptop = "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"
 
-client = OpenAI(api_key=secret_api_key)
+
+client = OpenAI(api_key=api_key_personal_laptop)
 
 response = client.models.list()
 print("printing response")
