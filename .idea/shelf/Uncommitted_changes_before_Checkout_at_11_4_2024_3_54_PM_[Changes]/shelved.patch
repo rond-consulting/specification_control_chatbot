@@ -1,0 +1,229 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"fc592906-5709-4094-90e5-f6d9ea15f8a0\" name=\"Changes\" comment=\"added gitignore\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2o1VmsBVfbpFYgp71QwPhhLPQYH\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_MARK_IGNORED_FILES_AS_EXCLUDED\": \"true\",\r\n    \"Notification.DisplayName-DoNotAsk-GitHub Copilot\": \"GitHub Copilot\",\r\n    \"Notification.DoNotAsk-GitHub Copilot\": \"true\",\r\n    \"Python.exercise_ean.executor\": \"Run\",\r\n    \"Python.main.executor\": \"Run\",\r\n    \"Python.try_gamma.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"main\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"$PROJECT_DIR$/data\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.exercise_ean\">\r\n    <configuration name=\"exercise_ean\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"EAN_matching\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/exercise_ean.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"main\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"EAN_matching\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/main.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.exercise_ean\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"fc592906-5709-4094-90e5-f6d9ea15f8a0\" name=\"Changes\" comment=\"\" />\r\n      <created>1730037231905</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1730037231905</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"added gitignore\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1730364991226</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1730364991226</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"added gitignore\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"added gitignore\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/main.py</url>\r\n          <line>8</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision ea3f6cab2a33032544362347a189ada14f9703e0)
++++ b/.idea/workspace.xml	(date 1730732018279)
+@@ -5,7 +5,15 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="fc592906-5709-4094-90e5-f6d9ea15f8a0" name="Changes" comment="added gitignore">
++      <change afterPath="$PROJECT_DIR$/ChatGPT/.dotenv" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/ChatGPT/connection_to_gpt_testing.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/EAN_matching.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EAN_matching.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/ChatGPT/exercise_ean.py" beforeDir="false" afterPath="$PROJECT_DIR$/ChatGPT/exercise_ean.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/ChatGPT/try_gamma.py" beforeDir="false" afterPath="$PROJECT_DIR$/ChatGPT/try_gamma.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Youtube/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/main.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -20,8 +28,25 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="main" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;baranmetin&quot;
++  }
++}</component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/rond-consulting/ean_check.git&quot;,
++    &quot;accountId&quot;: &quot;7e1a75eb-8c33-4f4c-9067-e5ffbe11d728&quot;
++  }
++}</component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 3
+ }</component>
+@@ -36,12 +61,16 @@
+     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+     "Notification.DisplayName-DoNotAsk-GitHub Copilot": "GitHub Copilot",
+     "Notification.DoNotAsk-GitHub Copilot": "true",
++    "Python tests.Python tests in test_ean_on_gpt.py.executor": "Run",
++    "Python.connection_to_gpt_testing.executor": "Run",
++    "Python.ean_on_gpt.executor": "Run",
+     "Python.exercise_ean.executor": "Run",
+     "Python.main.executor": "Run",
+     "Python.try_gamma.executor": "Run",
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "main"
++    "git-widget-placeholder": "testing__youtube__guy",
++    "last_opened_file_path": "C:/Users/baran.metin/Documents/Projects/forBaran"
+   }
+ }]]></component>
+   <component name="RecentsManager">
+@@ -49,7 +78,7 @@
+       <recent name="$PROJECT_DIR$/data" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Python.exercise_ean">
++  <component name="RunManager">
+     <configuration name="exercise_ean" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="EAN_matching" />
+       <option name="ENV_FILES" value="" />
+@@ -131,15 +160,4 @@
+     <MESSAGE value="added gitignore" />
+     <option name="LAST_COMMIT_MESSAGE" value="added gitignore" />
+   </component>
+-  <component name="XDebuggerManager">
+-    <breakpoint-manager>
+-      <breakpoints>
+-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-          <url>file://$PROJECT_DIR$/main.py</url>
+-          <line>8</line>
+-          <option name="timeStamp" value="1" />
+-        </line-breakpoint>
+-      </breakpoints>
+-    </breakpoint-manager>
+-  </component>
+ </project>
+\ No newline at end of file
+Index: streamlit/streamlit_ean.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/streamlit/streamlit_ean.py b/streamlit/streamlit_ean.py
+new file mode 100644
+--- /dev/null	(date 1730732037799)
++++ b/streamlit/streamlit_ean.py	(date 1730732037799)
+@@ -0,0 +1,123 @@
++import streamlit as st
++import pandas as pd
++import matplotlib.pyplot as plt
++
++# Display the logo
++st.image("gamma_logo.png", use_column_width=True)  # Adjust the path to your logo file
++
++# Title of the app
++st.title('How Good is the Specification Information in Gamma.nl')
++
++# Local file paths for the DataFrames
++file1 = "../data/incorrect_specs.csv"
++file2 = "../data/correct_specs.csv"
++
++# Read the DataFrames
++df1 = pd.read_csv(file1)
++df2 = pd.read_csv(file2)
++
++# Display the DataFrames
++st.subheader('Specifications from Gamma Website')
++st.dataframe(df1.reset_index(drop=True))
++
++st.subheader('Specifications from Chatbot (ChatGPT)')
++st.dataframe(df2.reset_index(drop=True))
++
++# Set the key column
++key_column = 'EAN'
++
++if key_column in df1.columns and key_column in df2.columns:
++    # Get all columns except the key column for comparison
++    common_columns = list(set(df1.columns).intersection(set(df2.columns)))
++    common_columns.remove(key_column)  # Remove the key column from comparison
++
++    # Sidebar for column selection with all columns selected by default
++    st.sidebar.header('Please select the specifications you wish to compare')
++    columns_to_compare = st.sidebar.multiselect(
++        'Selected Specifications',
++        common_columns,
++        default=common_columns  # Set all common columns as selected by default
++    )
++
++    if columns_to_compare:
++        # Initialize match count
++        total_selected = len(columns_to_compare)
++        total_matches = 0
++
++        # Create a list to store non-matching specifications
++        non_matching_list = []
++        match_percentages = {}  # To store match percentages for each column
++
++        # Compare selected columns
++        for col in columns_to_compare:
++            col_1 = df1[col]
++            col_2 = df2[col]
++
++            # Count matches
++            matches = (col_1 == col_2)
++            total_matches += matches.sum()
++
++            # Store match percentage for the column
++            match_percentages[col] = (matches.sum() / len(matches)) * 100
++
++            # Collect non-matching rows
++            non_matching_indices = df1.index[~matches]  # Get indices of non-matching rows
++            for idx in non_matching_indices:
++                non_matching_list.append({
++                    'Specification': col,  # Get the column name where the mismatch occurred
++                    'Information from Gamma.nl': df1.at[idx, col],  # Get the value from df1
++                    'Information from Chatbot': df2.at[idx, col]  # Get the value from df2
++                })
++
++        # Create DataFrame for non-matching values
++        if non_matching_list:
++            non_matching_df = pd.DataFrame(non_matching_list)
++        else:
++            non_matching_df = pd.DataFrame(columns=['Specification Name', 'Gamma', 'ChatGPT'])
++
++        # Calculate overall match percentage
++        overall_match_percentage = (total_matches / (total_selected * len(df1))) * 100 if total_selected > 0 else 0
++
++        # Calculate total mismatches based on selected specifications
++        total_mismatches = len(df1) - total_matches  # This assumes all rows are to be compared
++
++        # Display match percentage in a card
++        st.subheader('Overall Match Percentage for Selected Specifications')
++        st.metric(
++            label="For the selected Specifications we observe a matching percentage of:",
++            value=f"{overall_match_percentage:.1f}%"
++        )
++        # st.metric(
++        #     label="Total mismatches:",
++        #     value=total_mismatches
++        # )
++
++        # Pie chart for overall match percentage
++        st.subheader('Overall Match Percentage Distribution')
++        pie_labels = ['Matches', 'Non-Matches']
++        pie_sizes = [overall_match_percentage, 100 - overall_match_percentage]
++        pie_colors = ['#003878', '#ffffff']
++        fig, ax = plt.subplots()
++        ax.pie(pie_sizes, labels=pie_labels, colors=pie_colors, autopct='%1.1f%%', startangle=90)
++        ax.axis('equal')  # Equal aspect ratio ensures that pie chart is circular
++        st.pyplot(fig)
++
++        # Bar chart for match percentages
++        st.subheader('Match Percentage by Specification')
++        fig, ax = plt.subplots()
++        ax.bar(match_percentages.keys(), match_percentages.values(), color='#003878')
++        ax.set_ylabel('Match Percentage')
++        plt.xticks(rotation=90)
++        st.pyplot(fig)
++
++        # Display non-matching DataFrame
++        if not non_matching_df.empty:
++            st.subheader('Non-Matching Specifications')
++            st.dataframe(non_matching_df)
++        else:
++            st.write('All selected specifications match between the two datasets.')
++
++    else:
++        st.write('Please select at least one column to compare.')
++else:
++    st.error(f"The key column '{key_column}' is not present in both datasets.")
