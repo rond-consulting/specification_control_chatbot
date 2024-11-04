@@ -1,11 +1,12 @@
 # THIS WORKS!
 # %%
 # packages importing
-from openai import OpenAI
+from openai import OpenAI, api_key
 import prompts
 import markdown
 import pandas as pd
 import re
+import os
 
 
 
@@ -28,7 +29,12 @@ def check_specs(df):
 
 
     #client = OpenAI(api_key=os.environ.get('working_api'))
-    client = OpenAI(api_key="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")
+    api_key = os.getenv("MY_API_KEY")
+
+    if api_key is None:
+        raise ValueError("API Key not found. Please set the MY_API_KEY environment variable.")
+
+    client = OpenAI(api_key=api_key)
 
     system_message = prompts.system_message
 
@@ -60,7 +66,7 @@ def check_specs(df):
     markdown_content = "### Corrected Specifications Summary\n\n" + summary
 
     # Save the markdown response to a .md file
-    with open("corrected_specs_summary.md", "w", encoding="utf-8") as file:
+    with open("data/corrected_specs_summary.md", "w", encoding="utf-8") as file:
         file.write(markdown_content)
 
     print(f"To do this job I used {model} as the base model")
@@ -93,5 +99,5 @@ def extract_data_dict_from_markdown(file_path):
 
         correct_df.to_csv(f"data/correct_specs.csv", index=False)
 
-md_file = 'corrected_specs_summary.md'
+md_file = 'data/corrected_specs_summary.md'
 extract_data_dict_from_markdown(md_file)
