@@ -1,7 +1,7 @@
-# Asking ChatGPT Project
+# Product Specification Check Project
 
 ## Overview
-This project leverages OpenAI's ChatGPT model to validate and retrieve product specifications based on EAN (European Article Number) codes. It scrapes specification data from a given URL, queries ChatGPT for verification, and compares the returned specifications against the scraped data. A Streamlit interface is provided to visually compare specifications from the Gamma website and ChatGPT responses.
+This project leverages OpenAI's ChatGPT model to validate and retrieve product specifications based on EAN (European Article Number) codes for Gamma products. It scrapes specification data from a given URL, queries ChatGPT for verification, and compares the returned specifications against the scraped data. A Streamlit interface is provided to visually compare specifications from the Gamma website and ChatGPT responses.
 
 ## Project Structure
 
