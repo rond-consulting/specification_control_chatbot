@@ -3,7 +3,7 @@
 *.json
 
 venv*
-*.md
+corrected_specs_summary.md
 
 
 # Byte-compiled / optimized / DLL files
