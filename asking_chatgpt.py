@@ -9,9 +9,13 @@ import re
 import os
 
 
-
 def check_specs(df):
+    """
+    This function checks whether the specifications that are presented in the df are correct according to the provided OpenAI model
 
+    :param df:
+    :return: a dataframe that the OpenAI model considers to be correct
+    """
 
     ean = df['EAN'][0]
     # Set up prompt for ChatGPT

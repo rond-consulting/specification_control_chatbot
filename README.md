@@ -1,10 +1,17 @@
-# Asking ChatGPT Project
+# Product EAN Check Project
 
 ## Overview
-This project leverages OpenAI's ChatGPT model to validate and retrieve product specifications based on EAN (European Article Number) codes. It scrapes specification data from a given URL, queries ChatGPT for verification, and compares the returned specifications against the scraped data. A Streamlit interface is provided to visually compare specifications from the Gamma website and ChatGPT responses.
+This project leverages OpenAI's ChatGPT model to validate and retrieve product specifications based on EAN (European Article Number) codes for Gamma products. 
+
+It scrapes specification data from a given URL, queries ChatGPT for verification, and compares the returned specifications against the scraped data. A Streamlit interface is provided to visually compare specifications from the Gamma website and ChatGPT responses.
 
 ## Project Structure
 
+- **`main.py`**: The main Python script that runs the necessary files to:
+  - scrape actual information from Gamma.nl
+  - Ask a prompt to retrieve the correct information from ChatGPT.
+  - Save the results from ChatGPT as a markdown file
+  - Extract the ChatGPT results into a dataframe
 - **`asking_chatgpt.py`**: Main Python script that:
   - Scrapes product specifications from the specified Gamma website URL.
   - Queries ChatGPT to validate and correct the specifications.
@@ -29,7 +36,7 @@ This project leverages OpenAI's ChatGPT model to validate and retrieve product s
 2. **Set up environment variables:**
    - Create a `.env` file in the root directory and add your OpenAI API key:
      ```plaintext
-     MY_API_KEY=<your_openai_api_key>
+     working_api=<your_openai_api_key>
      ```
 
 3. **Install dependencies:**
@@ -78,7 +85,7 @@ streamlit run app.py
 
 This project uses a `.env` file for managing sensitive keys. Add the following environment variable to the `.env` file:
 ```plaintext
-MY_API_KEY=<your_openai_api_key>
+working_api=<your_openai_api_key>
 ```
 
 ## Dependencies
