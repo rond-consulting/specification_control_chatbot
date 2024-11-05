@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc592906-5709-4094-90e5-f6d9ea15f8a0" name="Changes" comment="added gitignore">
-      <change afterPath="$PROJECT_DIR$/request_ssl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/EAN_matching.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EAN_matching.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatGPT/.env" beforeDir="false" afterPath="$PROJECT_DIR$/ChatGPT/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatGPT/ean_on_gpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/ChatGPT/ean_on_gpt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asking_chatgpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/asking_chatgpt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specification_scrape.py" beforeDir="false" afterPath="$PROJECT_DIR$/specification_scrape.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="2686a05dc457413be395619216290dd54220f7ec" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,10 +63,11 @@
     "Python.exercise_ean.executor": "Run",
     "Python.main.executor": "Run",
     "Python.request_ssl.executor": "Run",
+    "Python.specification_scrape.executor": "Run",
     "Python.try_gamma.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature__chatbot"
+    "git-widget-placeholder": "private__pycharm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -157,6 +156,9 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added gitignore" />

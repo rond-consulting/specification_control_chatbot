@@ -50,3 +50,4 @@ def scrape_specifications(url: str):
 
 url = "https://www.gamma.nl/assortiment/bosch-18v-decoupeerzaag-pst18-zonder-accu/p/B391153"
 scrape_specifications(url)
+print('Specs are stored successfully!')

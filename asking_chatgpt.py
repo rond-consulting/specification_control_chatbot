@@ -5,22 +5,18 @@ import prompts
 import pandas as pd
 import re
 import os
-import httpx
 from dotenv import load_dotenv
-import requests
-import openai
 
-# Load the .env file
 load_dotenv()
 
 # Access the API key
 api_key = os.getenv("private_api")
 
-# Confirm that it's accessible
-if api_key:
-    print("API Key found:", api_key)
-else:
-    print("API Key not found!")
+# # Confirm that it's accessible
+# if api_key:
+#     print("API Key found:", api_key)
+# else:
+#     print("API Key not found!")
 
 def check_specs(df):
 
@@ -41,7 +37,7 @@ def check_specs(df):
 
 
     #client = OpenAI(api_key=os.environ.get('working_api'))
-    api_key = os.getenv("MY_API_KEY")
+    api_key = os.getenv("private_api")
 
     if api_key is None:
         raise ValueError("API Key not found. Please set the MY_API_KEY environment variable.")
@@ -86,20 +82,9 @@ def check_specs(df):
 
     return summary
 
-api_key = os.getenv("private_api")
+df_incorrect =pd.read_csv('data/incorrect_specs.csv')
+check_specs(df_incorrect)
 
-# Set up the OpenAI client with `requests` instead of `httpx`
-session = requests.Session()
-session.verify = False  # Disable SSL verification
-
-# Inject the session into the OpenAI client (requires additional OpenAI setup)
-openai.api_key = api_key
-openai.Session = session
-
-# Proceed with your function call
-df = pd.read_csv("data/incorrect_specs.csv")
-summary = check_specs(df)
-print(summary)
 
 
 def extract_data_dict_from_markdown(file_path):
@@ -108,19 +93,35 @@ def extract_data_dict_from_markdown(file_path):
         md_content = file.read()
 
     # Step 2: Extract the data dictionary using regex
-    md_file_clean = re.search(r"data\s*=\s*pd\.DataFrame\s*\(\s*\{(.+?)\}\s*\)", md_content, re.DOTALL)
+    md_file_clean = re.search(r"data\s*=\s*\{(.+?)\}\s*", md_content, re.DOTALL)
 
     if md_file_clean:
         # Extract the matched content and strip leading/trailing whitespace
         data_dict_str = md_file_clean.group(1).strip()
 
-        # Step 3: Evaluate the string to convert it to a dictionary
-        data_dict = eval('{' + data_dict_str + '}')  # Evaluate the extracted dictionary string
+        # Debugging: print the extracted dictionary string
+        print("Extracted data dictionary string:", data_dict_str)
 
-        # Convert the dictionary to a DataFrame
-        correct_df = pd.DataFrame(data_dict)
+        try:
+            # Step 3: Evaluate the string to convert it to a dictionary
+            data_dict = eval('{' + data_dict_str + '}')  # Evaluate the extracted dictionary string
 
-        correct_df.to_csv(f"data/correct_specs.csv", index=False)
+            # Convert the dictionary to a DataFrame
+            correct_df = pd.DataFrame(
+                [data_dict])  # Wrap in a list to create a DataFrame with one row
 
-#md_file = 'data/corrected_specs_summary.md'
-#extract_data_dict_from_markdown(md_file)
+            # Save DataFrame to CSV
+            correct_df.to_csv("data/correct_specs.csv", index=False)
+            print("Data successfully saved to data/correct_specs.csv")
+
+        except Exception as e:
+            print("Error during evaluation or saving:", e)
+    else:
+        print("Data dictionary pattern not found in the markdown file.")
+
+
+# Call the function
+md_file = 'data/corrected_specs_summary.md'
+extract_data_dict_from_markdown(md_file)
+
+print("all files are exported successfully!")
