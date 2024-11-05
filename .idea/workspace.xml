@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc592906-5709-4094-90e5-f6d9ea15f8a0" name="Changes" comment="added gitignore">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/request_ssl.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatGPT/.env" beforeDir="false" afterPath="$PROJECT_DIR$/ChatGPT/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatGPT/ean_on_gpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/ChatGPT/ean_on_gpt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asking_chatgpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/asking_chatgpt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corrected_specs_summary.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;baranmetin&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rond-consulting/ean_check.git&quot;,
+    &quot;accountId&quot;: &quot;7e1a75eb-8c33-4f4c-9067-e5ffbe11d728&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -47,21 +59,26 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Notification.DisplayName-DoNotAsk-GitHub Copilot": "GitHub Copilot",
     "Notification.DoNotAsk-GitHub Copilot": "true",
+    "Python.asking_chatgpt.executor": "Run",
+    "Python.check_keys.executor": "Run",
+    "Python.ean_on_gpt.executor": "Run",
     "Python.exercise_ean.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.request_ssl.executor": "Run",
     "Python.try_gamma.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "working__streamlit"
+    "git-widget-placeholder": "feature__chatbot"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\baran.metin\Documents\Projects\Intergamma\ean_check" />
       <recent name="C:\Users\baran.metin\Documents\Projects\Intergamma\ean_check\data" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
     <configuration name="exercise_ean" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EAN_matching" />
       <option name="ENV_FILES" value="" />
@@ -144,5 +161,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added gitignore" />
     <option name="LAST_COMMIT_MESSAGE" value="added gitignore" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ChatGPT/ean_on_gpt.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
