@@ -1,26 +1,14 @@
+# THIS WORKS!
 # %%
 # packages importing
 from openai import OpenAI, api_key
 import prompts
+import markdown
 import pandas as pd
 import re
 import os
-import httpx
-from dotenv import load_dotenv
-import requests
-import openai
 
-# Load the .env file
-load_dotenv()
 
-# Access the API key
-api_key = os.getenv("private_api")
-
-# Confirm that it's accessible
-if api_key:
-    print("API Key found:", api_key)
-else:
-    print("API Key not found!")
 
 def check_specs(df):
 
@@ -47,6 +35,7 @@ def check_specs(df):
         raise ValueError("API Key not found. Please set the MY_API_KEY environment variable.")
 
     client = OpenAI(api_key=api_key)
+
     system_message = prompts.system_message
 
 
@@ -86,20 +75,8 @@ def check_specs(df):
 
     return summary
 
-api_key = os.getenv("private_api")
-
-# Set up the OpenAI client with `requests` instead of `httpx`
-session = requests.Session()
-session.verify = False  # Disable SSL verification
-
-# Inject the session into the OpenAI client (requires additional OpenAI setup)
-openai.api_key = api_key
-openai.Session = session
-
-# Proceed with your function call
 df = pd.read_csv("data/incorrect_specs.csv")
-summary = check_specs(df)
-print(summary)
+check_specs(df)
 
 
 def extract_data_dict_from_markdown(file_path):
@@ -122,5 +99,5 @@ def extract_data_dict_from_markdown(file_path):
 
         correct_df.to_csv(f"data/correct_specs.csv", index=False)
 
-#md_file = 'data/corrected_specs_summary.md'
-#extract_data_dict_from_markdown(md_file)
+md_file = 'data/corrected_specs_summary.md'
+extract_data_dict_from_markdown(md_file)
