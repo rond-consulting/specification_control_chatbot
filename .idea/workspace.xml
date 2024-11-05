@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc592906-5709-4094-90e5-f6d9ea15f8a0" name="Changes" comment="added gitignore">
-      <change afterPath="$PROJECT_DIR$/request_ssl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatGPT/.env" beforeDir="false" afterPath="$PROJECT_DIR$/ChatGPT/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatGPT/ean_on_gpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/ChatGPT/ean_on_gpt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asking_chatgpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/asking_chatgpt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,23 +48,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Notification.DisplayName-DoNotAsk-GitHub Copilot": "GitHub Copilot",
-    "Notification.DoNotAsk-GitHub Copilot": "true",
-    "Python.asking_chatgpt.executor": "Run",
-    "Python.check_keys.executor": "Run",
-    "Python.ean_on_gpt.executor": "Run",
-    "Python.exercise_ean.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.request_ssl.executor": "Run",
-    "Python.try_gamma.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature__chatbot"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-GitHub Copilot&quot;: &quot;GitHub Copilot&quot;,
+    &quot;Notification.DoNotAsk-GitHub Copilot&quot;: &quot;true&quot;,
+    &quot;Python.asking_chatgpt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.check_keys.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ean_on_gpt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise_ean.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.md_read.executor&quot;: &quot;Run&quot;,
+    &quot;Python.request_ssl.executor&quot;: &quot;Run&quot;,
+    &quot;Python.specification_scrape.executor&quot;: &quot;Run&quot;,
+    &quot;Python.try_gamma.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature__chatbot&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/baran.metin/Documents/Projects/forBaran&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\baran.metin\Documents\Projects\Intergamma\ean_check" />
@@ -78,7 +75,7 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="exercise_ean" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EAN_matching" />
       <option name="ENV_FILES" value="" />
