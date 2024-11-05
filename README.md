@@ -5,6 +5,8 @@ This project leverages OpenAI's ChatGPT model to validate and retrieve product s
 
 It scrapes specification data from a given URL, queries ChatGPT for verification, and compares the returned specifications against the scraped data. A Streamlit interface is provided to visually compare specifications from the Gamma website and ChatGPT responses.
 
+Before starting the project, make sure to have an OpenAI API key that you can use in this project
+
 ## Project Structure
 
 - **`main.py`**: The main Python script that runs the necessary files to:
