@@ -1,11 +1,12 @@
 import pandas as pd
 from openai import OpenAI
-import gradio as gr
+#import gradio as gr
 import prompts
 
+#Hidden the api keys and commented out gradio
 system_message = prompts.system_message
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="<>")
 messages = [
     {'role': 'system', 'content': system_message}
 ]
@@ -40,6 +41,6 @@ def webapp_ean(user_input):
 
     return ChatGPT_reply
 
-demo = gr.Interface(fn=webapp_ean, inputs='text', outputs='text', title='EAN Check')
+#demo = gr.Interface(fn=webapp_ean, inputs='text', outputs='text', title='EAN Check')
 
-demo.launch()
+#demo.launch()
