@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc592906-5709-4094-90e5-f6d9ea15f8a0" name="Changes" comment="added gitignore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamlit/streamlit_ean.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,8 @@
     &quot;Python.try_gamma.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#1 on feature__chatbot&quot;
+    &quot;git-widget-placeholder&quot;: &quot;change__streamlit__visuals&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/baran.metin/Documents/Projects/Intergamma/ean_check&quot;
   }
 }</component>
   <component name="RecentsManager">
