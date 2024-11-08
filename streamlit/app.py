@@ -1,12 +1,10 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+from PIL import Image
 
-# Display the logo
-st.image("gamma_logo.png", use_column_width=True)  # Adjust the path to your logo file
+#from main import df_to_check
 
-# Title of the app
-st.title('How Good is the Specification Information in Gamma.nl')
 
 # Local file paths for the DataFrames
 file1 = "../data/incorrect_specs.csv"
@@ -15,6 +13,45 @@ file2 = "../data/correct_specs.csv"
 # Read the DataFrames
 df1 = pd.read_csv(file1)
 df2 = pd.read_csv(file2)
+
+GAMMA_LOGO = 'gamma_logo.png'
+
+
+# Configure Streamlit page settings
+st.set_page_config(
+    page_title="Gamma Specification Analysis",
+    page_icon=Image.open(GAMMA_LOGO),
+    layout="wide",
+    initial_sidebar_state="auto",
+    menu_items=None,
+)
+
+# Page header and description
+st.header("📃 SpecChecker 📃")
+st.markdown(
+    "**This is a demonstrator tool to explore correct extraction of product specifications powered by AI!**"
+)
+
+with st.sidebar:
+    logo = Image.open(GAMMA_LOGO)
+    st.image(logo)
+    st.markdown("""---""")
+    st.text_input(":blue[API KEY]", key='api_key', type='password')
+
+with st.sidebar.expander("🛠️ - Please select the specifications you wish to compare", expanded=True):
+    st.selectbox(
+        label=":blue[Specifications]",
+        options=df1.columns,
+        key="spec_name"
+    )
+
+
+# Display the logo
+#st.image("gamma_logo.png", use_column_width=True)  # Adjust the path to your logo file
+
+# Title of the app
+st.title('How Good is the Specification Information in Gamma.nl')
+
 
 # Display the DataFrames
 st.subheader('Specifications from Gamma Website')
